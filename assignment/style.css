@@ -4,22 +4,23 @@ margin: 0;
 
 /* Give your page a fun background color */
 body{
-    background-color: #AEB7B3;
+    background-color: #F8E8BE;
     color: #000;
 }
 /* Make the header and footer a different color from the background */
 header, footer{
-    background-color: #160C28;
+    background-color: #29164B;
     color: #EFCB68;
 }
 /* Align the h1 containing your name in the center of the header*/
 header{
     text-align: center;
-    width: 50%;
+    width: 70%;
     min-width: 400px;
     margin: 0 auto;
     padding: 20px 0;
     border-radius: 0 0 8px 8px;
+    text-transform: uppercase;
 }
 /* Make your p tag a different color and italic */
 p{
@@ -28,21 +29,22 @@ p{
 }
 /* Put a border around your image */
 img{
-    border: 2px solid black;
-    border-radius: 30px;
+    border: 5px solid #29164B;
+    border-radius:100%;
     height: 100%;
     width: auto;
 }
 /* Change the font-family of your list */
 ul{
     font-family: 'Oswald', sans-serif;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
     color: #000411;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 li{
     line-height: 2.0 rem;
+    font-weight: bold;
 }
 
 .page-container{
@@ -67,7 +69,7 @@ footer{
     width: 70%;
     height: 300px;
     margin: 10% auto 20%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -83,12 +85,18 @@ a:visited{
     color: #E1EFE6;
 }
 
+a:focus{
+    color: #8C67D2;
+    text-decoration-color: #EFCB68;
+}
 a:hover{    
-    color: #EFCB68;
+    color: #8C67D2;
+    text-decoration-color: #EFCB68;
 }
 
 a:active{
-    color: #EFCB68;
+    color: #8C67D2;
+    text-decoration-color: #EFCB68;
 }
 
 
